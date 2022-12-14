@@ -1,0 +1,43 @@
+.home {
+    height: 80vh;
+    /* overflow: hidden; */
+}
+
+.background {
+    width: 100%;
+    background-image: url("../../assets/food.jpeg");
+    height: 85vh;
+}
+
+.background img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    padding-left: 50px;
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.desc {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+button {
+    padding: 15px 20px;
+    color: white;
+    background: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

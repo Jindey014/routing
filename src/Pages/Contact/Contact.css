@@ -1,0 +1,50 @@
+.contactContainer {
+    height: 85vh;
+    display: flex;
+    width: 100vw;
+}
+
+.contactLeft {
+    flex-basis: 50%;
+}
+
+.contactLeft img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contactRight {
+    flex-basis: 50%;
+    width: 100%;
+    padding: 30px;
+}
+
+.contactRight h1 {
+    padding-bottom: 30px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+input {
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+
+.aboutButton {
+    margin-top: 15px;
+}
